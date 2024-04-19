@@ -7,7 +7,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
-	List<MovieVO> movieVo = null;
+	/* List<MovieVO> movieVo = null;
 	try (SqlSession ss = DBService.getFactory().openSession()) {
 		movieVo = MovieDAO.movieList();
 	} catch (Exception e) {
@@ -15,9 +15,7 @@
 	}
 	System.out.println("movieVo : " + movieVo);
 	
-	session.setAttribute("movieVO", movieVo);
-	
-	
+	session.setAttribute("movieVO", movieVo); */
 %>
 <!DOCTYPE html>
 <html>
@@ -32,16 +30,16 @@
 	<c:forEach var="vo" items="${listOne }">
 	<table>
 		<tr>
-			<td>${vo.mNo }</td>
-			<td>${vo.rTitle }</td>
+			<td>${vo.mvNo }</td>
+			<td>${vo.rvTitle }</td>
 		</tr>
 		<tr>
-			<td>${vo.rNick }</td>
-			<td>${vo.rDate }</td>
+			<td>${vo.rvNick }</td>
+			<td>${vo.rvDate }</td>
 		</tr>
 		<tr>
 			<td>
-				<input type="button" value="추천 "> ${vo.rRec }
+				<input type="button" value="추천 "> ${vo.rvRec }
 			</td>
 			<td></td>
 		</tr>

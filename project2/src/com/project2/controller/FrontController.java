@@ -24,10 +24,6 @@ public class FrontController extends HttpServlet {
 		
 		System.out.println(">> selectOne 처리");
 		
-		//List<ReviewVO> list = ReviewDAO.getList();
-		//request.setAttribute("selectAll", list);
-		//request.getRequestDispatcher("list.jsp").forward(request, response);
-		
 		request.setCharacterEncoding("UTF-8");
 		
 		if ("selectOne".equals(category)) {

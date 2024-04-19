@@ -12,7 +12,7 @@
 	<select id="one" parameterType="int" resultType="movieVO">
 		SELECT * 
 		FROM MOVIE
-		WHERE M_NO = #{mNo}
+		WHERE MV_NO = #{mvNo}
 	</select>
 	
 </mapper>

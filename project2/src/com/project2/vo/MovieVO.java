@@ -4,82 +4,83 @@ import java.sql.Date;
 
 public class MovieVO {
 	
-	private int mNo;
-	private String mTitle;
-	private String mDirect;
-	private String mActor;
-	private String mGenre;
-	private int mRate;
-	private String mAudience;
-	private String mGrade;
-	private Date mDate;
-	private String mPoster;
+	private int mvNo;
+	private String mvTitle;
+	private String mvDirect;
+	private String mvActor;
+	private String mvGenre;
+	private int mvRate;
+	private String mvAudience;
+	private String mvGrade;
+	private Date mvDate;
+	private String mv_poster;
 	
-	public int getmNo() {
-		return mNo;
+	public int getMvNo() {
+		return mvNo;
 	}
-	public void setmNo(int mNo) {
-		this.mNo = mNo;
+	public void setMvNo(int mvNo) {
+		this.mvNo = mvNo;
 	}
-	public String getmTitle() {
-		return mTitle;
+	public String getMvTitle() {
+		return mvTitle;
 	}
-	public void setmTitle(String mTitle) {
-		this.mTitle = mTitle;
+	public void setMvTitle(String mvTitle) {
+		this.mvTitle = mvTitle;
 	}
-	public String getmDirect() {
-		return mDirect;
+	public String getMvDirect() {
+		return mvDirect;
 	}
-	public void setmDirect(String mDirect) {
-		this.mDirect = mDirect;
+	public void setMvDirect(String mvDirect) {
+		this.mvDirect = mvDirect;
 	}
-	public String getmActor() {
-		return mActor;
+	public String getMvActor() {
+		return mvActor;
 	}
-	public void setmActor(String mActor) {
-		this.mActor = mActor;
+	public void setMvActor(String mvActor) {
+		this.mvActor = mvActor;
 	}
-	public String getmGenre() {
-		return mGenre;
+	public String getMvGenre() {
+		return mvGenre;
 	}
-	public void setmGenre(String mGenre) {
-		this.mGenre = mGenre;
+	public void setMvGenre(String mvGenre) {
+		this.mvGenre = mvGenre;
 	}
-	public int getmRate() {
-		return mRate;
+	public int getMvRate() {
+		return mvRate;
 	}
-	public void setmRate(int mRate) {
-		this.mRate = mRate;
+	public void setMvRate(int mvRate) {
+		this.mvRate = mvRate;
 	}
-	public String getmAudience() {
-		return mAudience;
+	public String getMvAudience() {
+		return mvAudience;
 	}
-	public void setmAudience(String mAudience) {
-		this.mAudience = mAudience;
+	public void setMvAudience(String mvAudience) {
+		this.mvAudience = mvAudience;
 	}
-	public String getmGrade() {
-		return mGrade;
+	public String getMvGrade() {
+		return mvGrade;
 	}
-	public void setmGrade(String mGrade) {
-		this.mGrade = mGrade;
+	public void setMvGrade(String mvGrade) {
+		this.mvGrade = mvGrade;
 	}
-	public Date getmDate() {
-		return mDate;
+	public Date getMvDate() {
+		return mvDate;
 	}
-	public void setmDate(Date mDate) {
-		this.mDate = mDate;
+	public void setMvDate(Date mvDate) {
+		this.mvDate = mvDate;
 	}
-	public String getmPoster() {
-		return mPoster;
+	public String getMv_poster() {
+		return mv_poster;
 	}
-	public void setmPoster(String mPoster) {
-		this.mPoster = mPoster;
+	public void setMv_poster(String mv_poster) {
+		this.mv_poster = mv_poster;
 	}
 	
 	@Override
 	public String toString() {
-		return "MovieVO [mNo=" + mNo + ", mTitle=" + mTitle + ", mDirect=" + mDirect + ", mActor=" + mActor
-				+ ", mGenre=" + mGenre + ", mRate=" + mRate + ", mAudience=" + mAudience + ", mGrade=" + mGrade
-				+ ", mDate=" + mDate + ", mPoster=" + mPoster + "]";
+		return "MovieVO [mvNo=" + mvNo + ", mvTitle=" + mvTitle + ", mvDirect=" + mvDirect + ", mvActor=" + mvActor
+				+ ", mvGenre=" + mvGenre + ", mvRate=" + mvRate + ", mvAudience=" + mvAudience + ", mvGrade=" + mvGrade
+				+ ", mvDate=" + mvDate + ", mv_poster=" + mv_poster + "]";
 	}
+	
 }
